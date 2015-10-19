@@ -26,7 +26,12 @@ var MapView = React.createClass({
     styleUrl: React.PropTypes.string,
     UserLocationTrackingMode: React.PropTypes.string,
     zoomEnabled: React.PropTypes.bool,
-    zoomLevel: React.PropTypes.number
+    zoomLevel: React.PropTypes.number,
+    scaleX: React.PropTypes.number,
+    scaleY: React.PropTypes.number,
+    translateX: React.PropTypes.number,
+    translateY: React.PropTypes.number,
+    rotation: React.PropTypes.number,
   },
   getDefaultProps() {
     return {
